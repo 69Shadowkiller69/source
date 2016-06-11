@@ -240,9 +240,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://raw.githubusercontent.com/69Shadowkiller69/source/master/basicBot.js",
+        scriptLink: "https://raw.githubusercontent.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://raw.githubusercontent.com/69Shadowkiller69/source/master/lang/fi.json",
+        chatLink: "https://raw.githubusercontent.com/basicBot/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,8 +250,8 @@
         settings: {
             botName: "basicBot",
             language: "english",
-            chatLink: "https://raw.githubusercontent.com/69Shadowkiller69/source/master/lang/fi.json",
-            scriptLink: "https://raw.githubusercontent.com/69Shadowkiller69/source/master/basicBot.js",
+            chatLink: "https://raw.githubusercontent.com/basicBot/source/master/lang/en.json",
+            scriptLink: "https://raw.githubusercontent.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
