@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://github.com/69Shadowkiller69/source/blob/master/lang/langIndex.json", function (json) {
+        $.get("https://raw.githubusercontent.com/basicBot/source/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -2146,6 +2146,7 @@
                             case 'sk': ch += 'Hovorte po anglicky, prosím.'; break;
                             case 'cs': ch += 'Mluvte prosím anglicky.'; break;
                             case 'sr': ch += 'Молим Вас, говорите енглески.'; break;
+                            case 'fi': ch += 'Молим Вас, говорите енглески.'; break;
                         }
                         ch += ' English please.';
                         API.sendChat(ch);
